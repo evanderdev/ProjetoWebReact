@@ -1,0 +1,81 @@
+#page-products {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.top-bar-container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3.8rem;
+    
+}
+
+legend h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 3rem 'Open Sans' ;
+    color: var(--color-text);
+    padding: 1rem 0;
+}
+
+.buttons-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-content button {
+    width: 16rem;
+    font-weight: 300;
+    background: none;
+    border: 1px solid gray;
+    letter-spacing: .1rem;
+    font-size: 1.7rem;
+    color: rgb(95, 95, 95);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.more {
+    background: rgb(102, 193, 245);
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+}
+
+.more:hover {
+    background: rgb(16, 160, 243);
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    margin-top: 6rem;
+}
