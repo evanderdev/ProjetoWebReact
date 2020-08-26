@@ -9,7 +9,7 @@ export default () => {
     return (
         <>
         {data.map(product =>
-            <div className="product-box">
+            <div key={product.id} className="product-box">
                 <img src={product.img} alt={product.nome} />
 
                 <div className="product-name">
