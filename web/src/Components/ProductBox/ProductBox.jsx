@@ -20,13 +20,13 @@ export default () => {
                     <div>{product.preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</div>
 
                     {product.preco > 300 ?
-                        <span>até 5x de {product.preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>
+                        <span>até 5x de {((product.preco)/5).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>
                         :
-                        <span>até 3x de {product.preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>
+                        <span>até 3x de {((product.preco)/3).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>
                     }
                 </div>
 
-                <button>COMPRAR</button>
+                <button className="button-buy">COMPRAR</button>
             </div>
         )}
         </>

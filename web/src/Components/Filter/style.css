@@ -15,7 +15,7 @@
     border-bottom: 1px solid gray;
 }
 
-.items-content {
+.params-content {
     margin-left: 1rem;
     display: flex;
     flex: 1;
@@ -24,81 +24,86 @@
 }
 
 .close-button {
-    background-color: none;
-    border: none !important;
-    width: 1rem !important;
-    height: .5rem !important;
+    background: none;
+    border: none;
+    outline: none;
     cursor: pointer;
+    padding: 1rem;
+    margin-right: 1.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
 }
 
-.close-button:before,
-.close-button:after{
-    content: ' ';
-    position: absolute;
-    width: .15rem;
-    height: 1.2rem;
-    background-color: black;
-}
-
-.close-button:before{
-    transform: rotate(45deg);
-}
-
-.close-button:after{
-    transform: rotate(-45deg);
-}
-
-
-.items-content h2 {
-    font-weight: 100;
+.params-content h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
     letter-spacing: .1rem;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    display: flex;
+    align-content: space-between;
+    justify-items: center;
 }
 
 
-.title-filter-colors {
-    margin-left: 1rem;
+.title-filter {
+    margin-left: 1.5rem;
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: space-between;
 }
 
-.title-filter-colors h2 {
+.title-filter h2 {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: .1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'Segoe UI';
 }
 
 .hidden-button{
-    background-color: none;
-    border: none !important;
-    width: 3rem !important;
-    height: .5rem !important;
+    background: none;
+    border: none;
+    outline: none;
     cursor: pointer;
+    padding: 1rem;
+    margin-right: 1rem;
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.buttons-filter-content {
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
     margin-bottom: 1rem;
-    outline: none;
 }
 
-.hidden-button:before,
-.hidden-button:after{
-    content: ' ';
-    position: absolute;
-    width: .15rem;
-    height: 1.1rem;
-    background-color: black;
+.button-to-apply{
+    width: 22rem ;
+    padding: 1rem;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    background: rgb(0, 183, 255);
 }
 
-.hidden-button:before{
-    transform: rotate(90deg);
+.button-clear{
+    width: 22rem ;
+    padding: 1rem;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background: none;
+    border: 2px solid rgb(207, 207, 207);
 }

@@ -40,7 +40,7 @@
     font-weight: 300;
 }
 
-button {
+.button-buy {
     background: black;
     border: none;
     padding: 1rem 4rem;
@@ -50,4 +50,8 @@ button {
     font-weight: 700;
     font-size: 1.2rem;
     margin-top: 1rem;
+}
+
+.button-buy:active {
+    background: rgb(0, 174, 255);
 }

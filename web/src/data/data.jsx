@@ -12,7 +12,7 @@ import camisetaTwoImg from '../assets/images/img_2.png';
 export default [{ id: "01", img: camisetaImg, nome: "camiseta mescla", preco: 28, cor: "cinza", tamanho: ["p", "m", "g", "gg"], data: "01/07/2020" },
 { id: "02", img: saiaImg, nome: "saia em couro", preco: 398, cor: "preto", tamanho: ["36", "38", "40", "42"], data: "02/07/2020" },
 { id: "03", img: tigreImg, nome: "cardigan tigre", preco: 398, cor: "laranja", tamanho: ["p", "m", "g", "gg"], data: "05/07/2020" },
-{ id: "04", img: whiteImg, nome: "cardigan off white", preco: 99.90, cor: "offWhite", tamanho: ["p", "m", "g", "gg"], data: "04/07/2020" },
+{ id: "04", img: whiteImg, nome: "cardigan off white", preco: 99.90, cor: "off-White", tamanho: ["p", "m", "g", "gg"], data: "04/07/2020" },
 { id: "05", img: bodyImg, nome: "body leopardo", preco: 129.90, cor: "amarelo", tamanho: ["p", "m", "g", "gg"], data: "05/07/2020" },
 { id: "06", img: casacoImg, nome: "casaco pelos", preco: 398, cor: "rosa", tamanho: ["p", "m", "g", "gg"], data: "03/07/2020" },
 { id: "07", img: croppedImg, nome: "cropped stripes", preco: 120, cor: "amarelo", tamanho: ["p", "m", "g", "gg"], data: "07/07/2020" },
